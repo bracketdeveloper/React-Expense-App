@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.app__container {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Form */
+
+.expense-form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.expense-form__title {
+    margin-bottom: 15px;
+}
+
+.expense-form__form {
+    display: flex;
+    gap: 10px;
+}
+
+.expense-form__input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.expense-form__input:focus {
+    outline: none;
+    border-color: #4f46e5;
+}
+
+.expense-form__button {
+    padding: 10px 15px;
+    border: none;
+    background: #4f46e5;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.expense-form__button:hover {
+    background: #4338ca;
+}
+
+/* List */
+
+.expense-list {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.expense-list__total {
+    margin-bottom: 15px;
+}
+
+.expense-list__empty {
+    text-align: center;
+    color: #777;
+}
+
+.expense-list__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expense-list__table th {
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Item */
+
+.expense-item td {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.expense-item__amount {
+    font-weight: bold;
+}
+
+.expense-item__delete {
+    padding: 6px 10px;
+    border: none;
+    background: #ef4444;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.expense-item__delete:hover {
+    background: #dc2626;
+}
