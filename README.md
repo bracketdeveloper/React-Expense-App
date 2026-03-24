@@ -1,10 +1,9 @@
-By Mian Ammar Salar
 # Expense Tracker App
 
 A simple React app to track your daily expenses.
 
-You can add expenses, view them in a list, and remove them when needed.
-The app also calculates the total amount automatically.
+You can add expenses, view them in a list, and remove them anytime.
+The total updates instantly.
 
 ---
 
@@ -14,15 +13,15 @@ The app also calculates the total amount automatically.
 * View all expenses in a table
 * Delete any expense
 * Real-time total calculation
-* Clean and responsive UI
+* Clean UI
 
 ---
 
 ## Tech Stack
 
-* React (useState)
+* React
 * JavaScript
-* CSS (custom styling)
+* CSS
 
 ---
 
@@ -37,42 +36,51 @@ src/
 │   └── ExpenseItem.jsx
 │
 ├── App.jsx
-└── index.js
+└── main.jsx
 ```
 
 ---
 
-## How It Works
+## How to Run This App (Step-by-Step)
 
-* You enter a title and amount
-* The app stores the expense in state
-* The list updates instantly
-* Total updates automatically
-* You can remove any item with one click
+### 1. Install Node.js
+
+Download and install Node.js from: https://nodejs.org/
+
+Check installation:
+
+```
+node -v
+npm -v
+```
 
 ---
 
-## Installation
-
-Clone the repository:
+### 2. Clone the Repository
 
 ```
 git clone https://github.com/your-username/expense-tracker.git
 ```
 
-Go to the project folder:
+---
+
+### 3. Open the Project Folder
 
 ```
 cd expense-tracker
 ```
 
-Install dependencies:
+---
+
+### 4. Install Dependencies
 
 ```
 npm install
 ```
 
-Run the app:
+---
+
+### 5. Start the App
 
 ```
 npm run dev
@@ -80,33 +88,45 @@ npm run dev
 
 ---
 
-## Usage
+### 6. Open in Browser
 
-* Enter expense title
-* Enter amount
-* Click "Add"
-* View it in the list
-* Click "Remove" to delete
+You will see a link like:
+
+```
+http://localhost:5173
+```
+
+Open it in your browser.
+
+---
+
+## How to Use the App
+
+* Enter a title (example: Food, Rent)
+* Enter an amount (example: 500)
+* Click **Add**
+* Your expense appears in the list
+* Click **Remove** to delete it
 
 ---
 
 ## Future Improvements
 
-* Edit existing expenses
+* Edit expenses
 * Add categories
-* Save data in localStorage
-* Add charts for insights
+* Save data using localStorage
+* Add charts
 
 ---
 
-## Questions to Think About
+## Questions to Explore
 
-* How will you persist data after refresh?
-* Do you want to track monthly budgets?
-* Should users filter expenses by category?
+* How can you store data permanently?
+* Can you filter expenses by date?
+* Can you show monthly summaries?
 
 ---
 
 ## License
 
-This project is open source and free to use.
+Free to use and modify.
