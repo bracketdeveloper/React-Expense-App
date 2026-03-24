@@ -1,3 +1,4 @@
+By Mian Ammar Salar
 # Expense Tracker App
 
 A simple React app to track your daily expenses.
